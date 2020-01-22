@@ -9,4 +9,4 @@
 6. Apresentar o nome do gesto quando o mesmo for reconhecido pelo sistema.
 7. Acrescentar o nome do gesto aos gestos reconhecidos anteriormente
 
-### ![Tela Aplicação](https://github.com/RomuloBianchin/Pratica016_ReconhecimentoDeGestos/blob/master/GIF-AppGesture.gif)
+##### ![Tela Aplicação](https://github.com/RomuloBianchin/Pratica016_ReconhecimentoDeGestos/blob/master/GIF-AppGesture.gif)
