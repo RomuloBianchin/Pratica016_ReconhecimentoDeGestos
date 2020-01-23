@@ -21,8 +21,8 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity implements GestureOverlayView.OnGesturePerformedListener {
 
     GestureOverlayView gestureView; // Obejto responsável por reconhecer os gestos desenhados no ecrã.
-    TextView nomeGesto; // Obejto responsável por exibir na lista os itens desenhados caso estejam entre 1 e 5.
-
+    TextView nomeGesto; // Obejto responsável por exibir na lista os itens desenhado, os mesmos já foram pré definidos no APK Gesture Tool.
+    
     //É necessário “carregar” o ficheiro biblioteca aonde já foram pré desenhados os gestos, para que seja possível
     //compara-los com os gestos que serão desenhados.
     GestureLibrary gestLib;
