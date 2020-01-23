@@ -72,12 +72,17 @@ public class MainActivity extends AppCompatActivity implements GestureOverlayVie
 
             if (previsao.score > 1.0){
                 nomeGesto.append("|" + previsao.name);
-                Toast.makeText(this,"" + previsao,Toast.LENGTH_LONG).show();
+                // Além de exibir o Toast, iremos posicionar o mesmo no meio do ecrã.
+                Toast toastPrevisao = Toast.makeText(this,"" + previsao,Toast.LENGTH_LONG);
+                toastPrevisao.setGravity(Gravity.CENTER,Gravity.CENTER,0);
+                toastPrevisao.show();
             }
             else{
                 nomeGesto.append("");
-                Toast.makeText(this,"Gesto desconhecido",Toast.LENGTH_LONG).show();
-
+                // Além de exibir o Toast, iremos posicionar o mesmo no meio do ecrã.
+                Toast toastDesconhecido = Toast.makeText(this,"Gesto desconhecido",Toast.LENGTH_LONG);
+                toastDesconhecido.setGravity(Gravity.CENTER,Gravity.CENTER,0);
+                toastDesconhecido.show();
             }
         }
     }
